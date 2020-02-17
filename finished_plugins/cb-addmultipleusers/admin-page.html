@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>add multiple users</title>
+</head>
+
+<body class='wrap'>
+  <h1>Add multiple users in bulk</h1>
+  <p>I created this plugin as a teaching aid so I could set up a class of students very quickly based just on their names.</p>
+  <p>Instructions:</p>
+  <ul class='bulkuser instructions'>
+    <li>Type the usernames separated by a comma ('bill bloggs' will give a username of 'bill_bloggs').</li>
+    <li>type password text to add to username</li>
+    <li>select WordPress role for users</li>
+    <li>Press 'create users'</li>
+    <li>Note: a false email will be created for each user!</li>
+  </ul>
+  <p>Go to Dashboard > users to edit/delete users.</p>
+
+  <h2>Type user names here</h2>
+  <div id="user_errors"></div>
+  <textarea id='user_list' name="user_text_area" class='user_text_area'></textarea>
+
+  <h2>Type password extension to name</h2>
+  <p>Text to add to username to generate password, eg user = 'bill', text to add = '_chipbug', password generated = 'bill_chipbug'</p>
+  <input type="text" id='password_text' name="password_text" class='password_text' placeholder="text to add to password eg _chipbug">
+
+  <h2>Select WordPress role</h2>
+  <p>Select role for new users (default: subscriber):</p>
+  <select id='wp_role'>
+    <option value="subscriber">Subscriber</option>
+    <option value="contributor">Contributor</option>
+    <option value="author">Author</option>
+    <option value="editor">Editor</option>
+    <option value="administrator">Administrator</option>
+  </select>
+
+  <button id="create_users" class='button-primary'>create users</button>
+
+  <h2>Registered users:</h2>
+  <table class="widefat fixed tablesorter" cellspacing="0" id='results'>
+    <thead>
+      <tr>
+        <th>name</th>
+        <th>login name</th>
+        <th>role</th>
+        <th>email</th>
+      </tr>
+    </thead>
+    <tbody>
+
+    </tbody>
+  </table>
+</body>
+
+</html>

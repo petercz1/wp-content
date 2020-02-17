@@ -1,0 +1,114 @@
+[{
+    "id": 0,
+    "topic": "France - the Local",
+    "feed": "https://www.thelocal.fr/feeds/rss.php",
+    "qty": 12
+  },
+  {
+    "id": 5,
+    "topic": "France24.com",
+    "feed": "http://www.france24.com/en/france/rss",
+    "qty": 12
+    },
+  {
+    "id": 1,
+    "topic": "Spiked online",
+    "feed": "http://www.spiked-online.com/newsite/rss/",
+    "qty": 12
+  }, {
+    "id": 2,
+    "topic": "Breitbart",
+    "feed": "http://feeds.feedburner.com/breitbart",
+    "qty": 12
+  }, {
+    "id": 3,
+    "topic": "Buzzfeed",
+    "feed": "https://www.buzzfeed.com/index.xml",
+    "qty": 12
+  },
+  {
+    "id": 4,
+    "topic": "The Spectator",
+    "feed": "https://www.spectator.co.uk/",
+    "qty": 12
+  },{
+    "id": 6,
+    "topic": "Oxford Mail",
+    "feed": "http://www.oxfordmail.co.uk/news/",
+    "qty": 12
+  },
+  {
+    "id": 7,
+    "topic": "Google HK",
+    "feed": "https://news.google.com/news/rss/headlines/section/q/hong%20kong/hong%20kong?ned=us&hl=en",
+    "qty": 12
+  },{
+    "id": 21,
+    "topic": "SCMP - HK",
+    "feed": "http://www.scmp.com/rss/2/feed",
+    "qty": 12
+  },{
+    "id": 22,
+    "topic": "SCMP - China",
+    "feed": "http://www.scmp.com/rss/4/feed",
+    "qty": 12
+  },
+  {
+    "id": 8,
+    "topic": "Google UK",
+    "feed": "https://news.google.com/news/rss/headlines/section/q/UK/UK?ned=us&hl=en",
+    "qty": 12
+  },
+  {
+    "id": 9,
+    "topic": "Google USA",
+    "feed": "https://news.google.com/news/rss/headlines/section/topic/NATION?ned=us&hl=en",
+    "qty": 12
+  },
+  {
+    "id": 10,
+    "topic": "Google World",
+    "feed": "https://news.google.com/news/rss/headlines/section/topic/WORLD?ned=us&hl=en",
+    "qty": 12
+  },
+  {
+    "id": 11,
+    "topic": "Google Business",
+    "feed": "https://news.google.com/news/rss/headlines/section/topic/BUSINESS?ned=us&hl=en",
+    "qty": 12
+  },
+  {
+    "id": 12,
+    "topic": "Google Technology",
+    "feed": "https://news.google.com/news/rss/headlines/section/topic/TECHNOLOGY?ned=us&hl=en",
+    "qty": 12
+  }, {
+    "id": 13,
+    "topic": "CNET",
+    "feed": "https://www.cnet.com/topics/tech-industry/",
+    "qty": 12
+  }, {
+    "id": 14,
+    "topic": "Slashdot",
+    "feed": "http://rss.slashdot.org/Slashdot/slashdot",
+    "qty": 12
+  },
+  {
+    "id": 15,
+    "topic": "Google Science",
+    "feed": "https://news.google.com/news/rss/headlines/section/q/science/science?ned=us&hl=en",
+    "qty": 12
+  },
+  {
+    "id": 16,
+    "topic": "Google Health",
+    "feed": "https://news.google.com/news/rss/headlines/section/topic/HEALTH?ned=us&hl=en",
+    "qty": 12
+  },
+  {
+    "id": 20,
+    "topic": "BoingBoing",
+    "feed": "http://boingboing.net/",
+    "qty": 12
+  }
+]

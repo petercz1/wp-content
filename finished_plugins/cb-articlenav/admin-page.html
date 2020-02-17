@@ -1,0 +1,39 @@
+<div class="wrap">
+  <h1>chipbug table-of-contents admin page</h1>
+  <p>Use [cb-toc] as a shortcode wherever you want your post navigation to appear. <button id="save_settings" class='button-primary'>Save settings</button></p>
+  <table class="widefat" id='toc_settings'>
+    <tbody id='add_data'>
+      <tr>
+        <td>Headings to use in post navigation menu</td>
+        <td>
+          <input type="checkbox" name="headings_1">h1
+          <input type="checkbox" name="headings_2" checked>h2
+          <input type="checkbox" name="headings_3">h3
+          <input type="checkbox" name="headings_4">h4
+          <input type="checkbox" name="headings_5">h5
+          <input type="checkbox" name="headings_6">h6
+        </td>
+      </tr>
+      <tr>
+        <td>Speed of scroll (seconds)</td>
+        <td><input type="number" name="scroll_speed" value="1"></td>
+      </tr>
+      <tr>
+        <td>Distance to scoll down to heading title (1em = 16px approx)</td>
+        <td><input type="number" name="scroll_down_distance" value="2"></td>
+      </tr>
+      <tr>
+        <td>Show 'return to post menu' link</td>
+        <td><input type="checkbox" name="show_return_menu" checked></td>
+      </tr>
+      <tr>
+        <td class='toggle_show'>Text for 'return to post menu' (type &#38;&#35;9650&#59; to get &#9650;)</td>
+        <td><input class='toggle_show' type="text" name="return_text" placeholder="eg 'back to top', or &#9650;"></td>
+      </tr>
+      <tr>
+        <td class='toggle_show'>Distance to scroll back above TOC (1em = 16px approx)</td>
+        <td><input class='toggle_show' type="number" name="return_scroll_distance" value="4"></td>
+      </tr>
+    </tbody>
+  </table>
+</div>

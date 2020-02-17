@@ -1,0 +1,32 @@
+[class^="articlenav_h"] {
+  display: block;
+}
+
+.articlenav_h1 {
+  padding-left: 0em;
+}
+
+.articlenav_h2 {
+  padding-left: 0em;
+}
+
+.articlenav_h3 {
+  padding-left: 2em;
+}
+
+.articlenav_h4 {
+  padding-left: 4em;
+}
+
+.articlenav_h5 {
+  padding-left: 6em;
+}
+
+.articlenav_h6 {
+  padding-left: 8em;
+}
+
+.cb-articlenav-returnlink {
+  color: black;
+  float: right;
+}

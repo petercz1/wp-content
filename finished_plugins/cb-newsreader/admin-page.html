@@ -1,0 +1,29 @@
+<div class="wrap">
+  <h1>chipbug newsreader admin page</h1>
+  <p>Add newsfeeds at the bottom. Drag up/down to reorder</p>
+  <table class="widefat">
+    <thead>
+      <tr>
+        <th>feed name</th>
+        <th>feed url</th>
+        <th>no of news items</th>
+        <th></th>
+        <th></th>
+      </tr>
+    </thead>
+    <tbody id='add_data'>
+    </tbody>
+    <tfoot>
+      <tr>
+        <td><input type="text" id='feed_name'></td>
+        <td><input type="text" id='feed_url'></td>
+        <td><input type="number" id='feed_qty' min='1' step='1'></td>
+        <td><button class='button-primary' id='add'>add</button></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td colspan="5"><div id="message"></div></td>
+      </tr>
+    </tfoot>
+  </table>
+</div>

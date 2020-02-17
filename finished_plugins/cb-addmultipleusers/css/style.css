@@ -1,0 +1,26 @@
+.instructions{
+  list-style: disc outside;
+  padding-left: 2em;*/
+}
+
+.user_text_area, .password_text{
+  width: 80%;
+  display: block;
+}
+#create_users{
+  margin-top: 1em;
+  display: block;
+}
+#results{
+  margin-top: 1em;
+}
+
+#results thead {
+  cursor: pointer;
+  background: #c9dff0;
+}
+
+#user_errors{
+  color: red;
+  font-weight: 800;
+}

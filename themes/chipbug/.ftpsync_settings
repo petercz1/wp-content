@@ -1,0 +1,1 @@
+{"connect":"SFTP","host":"chipbug.com","port":"22","user":"pc","pwd":"mOrgan01","savepwd":"checked","remoteRoot":"/home/pc/sites/chipbug/wp-content/themes/chipbug","privateKeyFile":"/home/pc/.ssh/chipbug"}

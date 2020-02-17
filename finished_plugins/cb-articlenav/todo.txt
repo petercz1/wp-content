@@ -1,0 +1,3 @@
+do uninstall
+add admin for settings - headings to include, numbered, ?
+cxhange articlenav to postnav

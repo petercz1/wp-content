@@ -1,0 +1,11 @@
+.gray_out{
+  color:lightgray !important;
+}
+
+#save_settings{
+  float:right;
+}
+
+p{
+  line-height: 28px;
+}

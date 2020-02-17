@@ -1,0 +1,104 @@
+html {
+    font-size: 16px;
+}
+
+body {
+    font-family: 'Source Sans Pro', sans-serif;
+}
+
+h1 {
+    font-size: 2em;
+}
+
+h2 {
+    font-size: 1.5em;
+}
+
+h3 {
+    font-size: 1.17em;
+}
+
+h4 {
+    font-size: 1.12em;
+}
+
+h5 {
+    font-size: .83em;
+}
+
+h6 {
+    font-size: .75em;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    font-weight: bold;
+}
+
+ul.elementy-ul {
+    list-style: none;
+    max-width: 200px;
+    padding-left: 0
+}
+
+body {
+    padding-top: 70px;
+}
+
+.side_bar_padding {
+    padding-top: 20px
+}
+
+@media screen and (max-width: 767px) {
+    .yamm ul.elementy-ul {
+        margin-bottom: 25px;
+    }
+}
+
+@media (min-width: 768px) {
+    body,
+    .crayon-pre, .crayon-num {
+        font-size: 1em !important;
+    }
+}
+
+@media (min-width: 992px) {
+    body,
+    .crayon-pre, .crayon-num {
+        font-size: 1em !important;
+    }
+}
+
+@media (min-width: 1200px) {
+    body,
+    .crayon-pre, .crayon-num {
+        font-size: 1em !important;
+    }
+}
+
+#search_form_on_page+form,
+#form_controls {
+    width: 100%;
+}
+
+#search_form_on_page+form #form_controls button {
+    width: 20%;
+    margin:0;
+    box-sizing: border-box;
+}
+
+#search_form_on_page + form #form_controls div {
+    width: 79%;
+    margin:0;
+    box-sizing: border-box;
+}
+
+#search_form_on_page + form #form_controls div input {
+    width: 100%;
+    margin:0;
+    box-sizing: border-box;
+}

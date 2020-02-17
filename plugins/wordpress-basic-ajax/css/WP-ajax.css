@@ -1,0 +1,21 @@
+table#WP-ajax-table thead {
+  background-color: #FFF;
+}
+
+table#WP-ajax-table thead th {
+  min-width: 125px;
+  text-align: left;
+}
+
+table#WP-ajax-table tbody tr {
+  padding: 5px 0;
+  border-bottom: 1px solid #FFF;
+}
+
+table#WP-ajax-table tbody tr:nth-of-type(odd) {
+  background-color: #E9E9E9;
+}
+
+table#WP-ajax-table tbody td {
+  padding: 0 5px;
+}
